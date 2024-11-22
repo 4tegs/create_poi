@@ -1,4 +1,4 @@
-# **overpass_2_POI**
+# **create_poi**
 
 ## Version and Licence ##
 
