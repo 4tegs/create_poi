@@ -29,19 +29,6 @@ try:
     import h_utils                              # type: ignore
 except Exception as e:
     print(f"Error importing utils: {e}")
-# ----------------------------------------------------------------------------------
-# I wasn't able to find the error in my compile, but as long as I don't add the same 
-# imports as in utils, the exe breaks with an import error.
-# Duplicate imports from uitls.py:
-# ----------------------------------------------------------------------------------
-# from pathlib import Path
-# import json
-# import gpxpy
-# import sys
-# from tkinter import *
-# from tkinter import ttk
-# from ttkthemes import ThemedTk
-# import xml.etree.ElementTree as ET
 
 # ------------------------------------------------------------------------------------------
 #  _____ _ _          _                     _ _ _             
