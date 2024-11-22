@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1">
+        <Placemark id="22613">
+            <name><![CDATA[ARAL]]></name>
+            <Snippet maxLines="0"/>
+            <styleUrl>#placemark-blue
+            </styleUrl>
+            <description>Trailfinger Kopf</description>
+            <Point id="22612">
+                <coordinates>9.9727194,51.7309903,0.0</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>

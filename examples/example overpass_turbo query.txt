@@ -1,0 +1,13 @@
+[out:json][timeout:2400];
+// gather results
+area['ISO3166-1'='DE']->.a;
+(
+node['amenity'='fuel'] ['fuel:lpg'='yes'](area.a);
+way['amenity'='fuel'] ['fuel:lpg'='yes'](area.a);
+relation['amenity'='fuel'] ['fuel:lpg'='yes'](area.a);
+);
+// print results;
+// out body;
+out center;
+>;
+out skel qt;
