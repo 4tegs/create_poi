@@ -30,6 +30,19 @@ try:
     import h_utils                              # type: ignore
 except Exception as e:
     print(f"Error importing utils: {e}")
+# ----------------------------------------------------------------------------------
+# I wasn't able to find the error in my compile, but as long as I don't add the same 
+# imports as in utils, the exe breaks with an import error.
+# Duplicate imports from uitls.py:
+# ----------------------------------------------------------------------------------
+# from pathlib import Path
+# import json
+# import gpxpy
+# import sys
+# from tkinter import *
+# from tkinter import ttk
+# from ttkthemes import ThemedTk
+# import xml.etree.ElementTree as ET
 
 # ------------------------------------------------------------------------------------------
 #  _____ _ _          _                     _ _ _             
@@ -227,10 +240,10 @@ if __name__ == "__main__":
     all_zip_files_gpx = ""
     all_zip_files_gpi = ""
     # Make a fresh workspace and delete all working directories used later
-    if os.path.exists(".\\POI_KML_OruxMaps") and os.path.isdir(".\\POI_KML_OruxMaps"): shutil.rmtree(".\\POI_KML_OruxMaps")
-    if os.path.exists(".\\POI_KML_OrganicMaps") and os.path.isdir(".\\POI_KML_OrganicMaps"): shutil.rmtree(".\\POI_KML_OrganicMaps")
-    if os.path.exists(".\\POI_GPX") and os.path.isdir(".\\POI_GPX"): shutil.rmtree(".\\POI_GPX")
-    if os.path.exists(".\\POI_GPI") and os.path.isdir(".\\POI_GPI"): shutil.rmtree(".\\POI_GPI")
+    # if os.path.exists(".\\POI_KML_OruxMaps") and os.path.isdir(".\\POI_KML_OruxMaps"): shutil.rmtree(".\\POI_KML_OruxMaps")
+    # if os.path.exists(".\\POI_KML_OrganicMaps") and os.path.isdir(".\\POI_KML_OrganicMaps"): shutil.rmtree(".\\POI_KML_OrganicMaps")
+    # if os.path.exists(".\\POI_GPX") and os.path.isdir(".\\POI_GPX"): shutil.rmtree(".\\POI_GPX")
+    # if os.path.exists(".\\POI_GPI") and os.path.isdir(".\\POI_GPI"): shutil.rmtree(".\\POI_GPI")
 
     for items_in_scope in in_scope:
         zip_kml_files = ""

@@ -1,6 +1,10 @@
 @echo off
 @REM goto dealer
 cls
+rmdir /s /q ".\\POI_KML_OruxMaps"
+rmdir /s /q ".\\POI_KML_OrganicMaps"
+rmdir /s /q ".\\POI_GPX"
+rmdir /s /q ".\\POI_GPI"
 @REM -----------------------------------------------------------
 @REM  _              _       _             
 @REM | |    ___   __| | __ _(_)_ __   __ _ 
