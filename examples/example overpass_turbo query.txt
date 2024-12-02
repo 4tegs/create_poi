@@ -11,3 +11,17 @@ relation['amenity'='fuel'] ['fuel:lpg'='yes'](area.a);
 out center;
 >;
 out skel qt;
+
+
+
+[out:json][timeout:2400];
+// gather results
+(
+nwr["shop"="motorcycle"] ["brand"~".*KTM.*",i] ({{bbox}});
+nwr["shop"="motorcycle"] ["name"~".*KTM.*",i] ({{bbox}});
+nwr["shop"="motorcycle"] ["brand"~".*HUSQVA.*",i] ({{bbox}});
+nwr["shop"="motorcycle"] ["name"~".*HUSQVA.*",i] ({{bbox}});
+);
+out center;
+>;
+out skel qt;

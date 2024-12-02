@@ -1,7 +1,7 @@
 {
     "in_scope"          :   ["central","west","nordics","east","uki","southeast","maghreb","asia-west"],
-    "in_scope1"         :   ["central","west","southeast"],
-    "in_scope2"         :   ["my_special"],
+    "in_scope2"         :   ["central","west","southeast"],
+    "in_scope3"         :   ["my_special"],
     "remark"            :   "=====================================================================", 
     "remark1"           :   "      Do not touch anything further down here except my_special      ", 
     "remark2"           :   "=====================================================================", 
@@ -65,5 +65,5 @@
         "ukraine"		: "UA"
     },
     "7z_exe"            :   "C:\\Program Files\\7-Zip\\7Z.exe",
-    "GPSBabel"          :   "C:\\Program Files\\GPSBabel\\GPSBabel.exe"
+    "GPSBabel"          :   "C:\\Program Files\\GPSBabel\\gpsbabel.exe"
 }

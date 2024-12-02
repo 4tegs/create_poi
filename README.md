@@ -14,10 +14,10 @@
 ## About ##
 
 This program pulls data from OpenStreetMap using the Overpass Turbo API. Pulled data is converted to Points of Interest (POI) or Waypoints 
-* in a KML format for Oruxmaps (Standard KML)
-* in a KML format for OrganicMaps (Special Icon treatment)
-* GPX for Garmin including Symbol
-* GPI for Garmin Points of Interest (POI)
+* in a KML format for Oruxmaps (Standard KML with icons)
+* in a KML format for OrganicMaps (Special Icon/Pin treatment)
+* GPX for Garmin including Garmin Symbol
+* GPI for Garmin Points of Interest (POI including Icon)
 
 ## Details for usage ##
 
